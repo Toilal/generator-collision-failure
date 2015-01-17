@@ -8,7 +8,7 @@ module.exports = yeoman.generators.Base.extend({
   writing: {
     app: function () {
       this.fs.copy(
-        this.templatePath('*.jar'),
+        this.templatePath('*'),
         this.destinationRoot()
       );
     }
